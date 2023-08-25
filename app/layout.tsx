@@ -51,20 +51,13 @@ export default function RootLayout({
           <header className="flex items-center h-20 gap-4 px-4 border-b border-black border-solid sm:px-8 border-opacity-20">
             <Link href="/" className="flex items-center h-20 gap-2 sm:gap-4">
               <Image
-                src="/clerk.svg"
-                alt="Clerk Logo"
+                src="/logoares.png"
+                alt="Ares Logo"
                 width={102}
                 height={32}
                 priority
               />
-              <Times />
-              <Image
-                src="/next.svg"
-                alt="Next.js Logo"
-                width={90}
-                height={18}
-                priority
-              />
+              Ares Property Group
             </Link>
             <div className="grow" />
             <SignedIn>
@@ -89,8 +82,8 @@ export default function RootLayout({
           <main className="grow">{children}</main>
           <footer className="flex items-center h-20 gap-1 px-8 font-medium border-t md:px-20">
             <Image
-              src="/clerk.svg"
-              alt="Clerk Logo"
+              src="/logoares.png"
+              alt="Ares Logo"
               width={64}
               height={32}
               priority
@@ -99,32 +92,22 @@ export default function RootLayout({
             <nav className="flex justify-end grow sm:gap-2">
               <a
                 className="flex gap-2 px-3 py-2 text-sm font-semibold text-gray-600 transition duration-100 rounded-md hover:text-gray-800"
-                href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+                href="https://aresinvestments.org"
               >
                 <div className="m-auto">
                   <Docs />
                 </div>
-                <span className="hidden sm:inline"> Visit Clerk Docs</span>
-                <span className="inline sm:hidden"> Docs</span>
-              </a>
-              <a
-                className="flex gap-2 px-3 py-2 text-sm font-semibold text-gray-600 transition duration-100 rounded-md hover:text-gray-800"
-                href="https://github.com/devagrawal09/clerk-nextjs-template"
-              >
-                <div className="m-auto">
-                  <Github />
-                </div>
-                <span className="hidden sm:inline"> View on Github</span>
+                <span className="hidden sm:inline"> Ares Website</span>
               </a>
               <a
                 className="flex flex-col justify-center p-2 hover:underline"
-                href="https://twitter.com/ClerkDev"
+                href="https://x.com/"
               >
                 <Twitter />
               </a>
               <a
                 className="flex flex-col justify-center p-2 hover:underline"
-                href="https://discord.com/invite/b5rXHjAg7A"
+                href="https://discord.com/"
               >
                 <Discord />
               </a>
